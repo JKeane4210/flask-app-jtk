@@ -4,10 +4,14 @@
         <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
     </head>
     <body>
+        <h1>Jonny's Cool Enhanced Site!</h1>
         <div class="falling-images-container">
-            <img className="falling-image" src="{{ url_for('static',filename='imgs/snow.png') }}" alt="snow1"/>
-            <img className="falling-image" src="{{ url_for('static',filename='imgs/snow.png') }}" alt="snow2"/>
-            <img className="falling-image" src="{{ url_for('static',filename='imgs/snow.png') }}" alt="snow3"/>
-          </div>  
+            <img class="falling-image" src="{{ url_for('static',filename='imgs/snow.png') }}" alt="snow1"/>
+            <img class="falling-image" src="{{ url_for('static',filename='imgs/snow.png') }}" alt="snow2"/>
+            <img class="falling-image" src="{{ url_for('static',filename='imgs/snow.png') }}" alt="snow3"/>
+        </div> 
+        <div class="center">
+            <img class="snowman" src="{{ url_for('static',filename='imgs/snowman.png') }}"/>
+        </div>
     </body>
 </html>
